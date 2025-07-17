@@ -17,13 +17,13 @@ MYSQL_CONFIG = {
     'autocommit': True
 }
 
-# Redis Settings
-REDIS_CONFIG = {
-    'host': os.getenv('REDIS_HOST', 'localhost'),
-    'port': int(os.getenv('REDIS_PORT', 6379)),
-    'password': os.getenv('REDIS_PASSWORD', None),
-    'db': 0
-}
+# Redis Settings (not used currently)
+# REDIS_CONFIG = {
+#     'host': os.getenv('REDIS_HOST', 'localhost'),
+#     'port': int(os.getenv('REDIS_PORT', 6379)),
+#     'password': os.getenv('REDIS_PASSWORD', None),
+#     'db': 0
+# }
 
 # Bot Settings
 SUPPORT_USERNAME = os.getenv('SUPPORT_USERNAME', 'Anton_ozernote')
